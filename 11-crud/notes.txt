@@ -1,0 +1,13 @@
+Projet CRUD : 
+
+dossier app : 
+    - fichier : config.xml
+dossier controller : 
+    - fichier : controller.php
+dossier model : 
+    - fichier : entityRepository.php
+dossier view : 
+    - template
+
+- fichier : index.php 
+- fichier : autoload.php 

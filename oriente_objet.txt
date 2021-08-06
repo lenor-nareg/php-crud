@@ -1,0 +1,29 @@
+Orienté objet : 
+
+Inconvenients : 
+    -Techniquement, on ne peut rien faire de plus avc l'orienté objet qu'avec le procedual 
+    -En general, l'approche en orienté objet est moins intuitive pour l'esprit humain
+    -Legere perte de performance 
+
+Avantages : 
+    -Code generique, modulariser afin d'avoir un code evolutif 
+    -Encourager le travail collaboratif 
+    -Masquer la complexité ud code grace au principe d'encapsulation
+    Exemple : 
+
+    Class Panier{
+        public function ajouterPanier(){
+            //code de traitement ajout panier 
+        }
+    }
+    $obj = new Panier;
+    $obj->ajouterPanier();
+
+    -Possibilité de documenter son code
+    -Reutilisation, on ne repart jms de zero, effectuer un code type pouvant etre repris sur d'autres projets
+    -Simplifier la maintenance/Mise à jour(tout se passe ds la classe en question)
+    Assouplir le code, factoriser le code, meilleure conceptualisation 
+    -Plus d'options ds le language (héritage, surcharge, abstraction, finalisation, manipulation, traits, interface)
+    -Cela permet de passer plus facilement à d'autres technos : .net, c++, java etc ...
+
+    Pas besoin de POO pour les petits projets mais pour les projets grandes envergures avec des equipes de dev mis à jour régulierement 
